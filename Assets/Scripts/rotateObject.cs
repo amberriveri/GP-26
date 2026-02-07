@@ -1,11 +1,14 @@
 using UnityEngine;
 
-public class rotateObject : MonoBehaviour
+namespace AH2696
 {
-    public Vector3 rotationSpeed = new Vector3(0, 100, 0);
-
-    void Update()
+    public class rotateObject : MonoBehaviour
     {
-        transform.Rotate(rotationSpeed * Time.deltaTime);
-    }
+        public Vector3 rotationSpeed = new Vector3(0, 100, 0);
+
+        void Update()
+        {
+            transform.Rotate(rotationSpeed * Time.deltaTime);
+        }
+    } 
 }
