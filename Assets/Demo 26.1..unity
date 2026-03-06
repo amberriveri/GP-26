@@ -289,6 +289,12 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &304180850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7406550390787634732, guid: 2f211808431887b4aa67c317668555a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2919697861053287506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &436579344
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +518,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1287173902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287173904}
+  - component: {fileID: 1287173903}
+  - component: {fileID: 1287173905}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1287173903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287173902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce65e0f0bd0bb14a9ed1360d1e7e363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FindExample
+  targetObject: {fileID: 304180850}
+--- !u!4 &1287173904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287173902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.06464, y: 0.5, z: 0.10218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287173905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287173902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e6683b09880a04c9b5e9a517d0d254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FindExample2
 --- !u!1 &1367231524
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,3 +904,4 @@ SceneRoots:
   - {fileID: 2919697861053287506}
   - {fileID: 1389240731}
   - {fileID: 436579348}
+  - {fileID: 1287173904}
